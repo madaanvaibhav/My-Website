@@ -1,0 +1,150 @@
+.navbar a:hover {
+  text-decoration: none;
+}
+.navbar a:active {
+  text-decoration: none;
+}
+
+.showcase {
+  padding: 150px;
+  color: #ccc;
+}
+.header {
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  font-weight: bold;
+  font-display: auto;
+  font-family: monospace, monospace;
+}
+.active {
+  color: #dc143c;
+}
+.ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.logo {
+  color: #ccc;
+  text-shadow: 3px 3px 3px #000;
+}
+.container {
+  align-items: center;
+  color: #ccc;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header1 {
+  font-family: "Righteous", cursive;
+  font-size: 6vw;
+}
+.header2 {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 1.4vw;
+}
+.header3 {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 2.2vw;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #dc143c;
+}
+.link1 {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 2.8vw;
+  color: white;
+  margin: 0px 5px 0px 5px;
+  transition: 0.5s;
+}
+
+.link1:hover {
+  color: green;
+}
+.image {
+  border-radius: 50%;
+}
+.underconstruction {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 1.4vw;
+  color: #4caf50;
+}
+.index {
+  color: #ccc;
+}
+.navbar {
+  height: 80px;
+}
+.navbar-nav a {
+  font-family: "Ubuntu Mono", monospace;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
+  letter-spacing: 1px;
+}
+
+.inactive {
+  color: #fff;
+}
+
+@media screen and (max-width: 996px) {
+  .bar {
+    font-size: 7vw;
+    color: #fff;
+    font-family: "Ubuntu Mono", monospace;
+  }
+}
+@media screen and (min-width: 996px) {
+  .bar {
+    font-size: 2.5vw;
+    color: #fff;
+    font-family: "Ubuntu Mono", monospace;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .header1 {
+    font-size: 8vw;
+  }
+  .header2 {
+    font-size: 2vw;
+  }
+  .link1 {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  body {
+    text-align: center;
+  }
+  .header1 {
+    font-size: 9vw;
+  }
+  .header2 {
+    font-size: 3vw;
+  }
+  .link1 {
+    font-size: 5vw;
+  }
+}
+
+@media screen and (min-width: 1390px) {
+  .header2 {
+    font-size: 2.3vw;
+  }
+  .header4 {
+    font-size: 1.2vw;
+  }
+}
