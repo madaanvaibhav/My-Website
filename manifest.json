@@ -1,0 +1,53 @@
+{
+  "name": "Vaibh@v Blogg Web App",
+  "short_name": "Vaibh@v Blogg",
+  "description": "A very cool web app powered by Vaibhav",
+  "theme_color": "#121212",
+  "background_color": "#1a1a1a",
+  "display": "standalone",
+  "Scope": "./",
+  "start_url": "index.html",
+  "icons": [
+    {
+      "src": "https://everythin.me/images/spyware.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "https://everythin.me/images/spyware.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "https://everythin.me/images/spyware.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "https://everythin.me/images/spyware.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "https://everythin.me/images/spyware.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "https://everythin.me/images/spyware.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://everythin.me/images/spyware.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "https://everythin.me/images/spyware.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}
