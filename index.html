@@ -50,7 +50,9 @@
 
   <!-- main app script -->
   <script src="index.js" defer></script>
-
+  <script async custom-element="amp-auto-ads"
+  src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+</script>
 </head>
 <!-- load the 'scroll_helper' controller on the body -->
 <body data-ui-load="@lib/controllers/scroll_helper" data-ui-options="options.pageScroll" data-ui-lazyload="scroll">
@@ -83,9 +85,9 @@
         data-ui-options="options.footerBar"
         data-ui-field="footer-bar"></footer>
 
-<noscript>
-  Turn on JavaScript to access this site content.
-</noscript>
 
+        <amp-auto-ads type="adsense"
+        data-ad-client="ca-pub-1635484769474941">
+</amp-auto-ads>
 </body>
 </html>
