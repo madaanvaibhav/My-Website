@@ -60,7 +60,7 @@
 <!-- The header with title/logo -->
 <header data-ui-include="layout/header"
         data-ui-field="header-bar"></header>
-<script type='text/javascript' src='//pl16757278.effectivegatetocontent.com/99/0e/58/990e58e7741fb28b646bb09445ac987c.js'></script>
+
   
 <main data-ui-field="pages">
 
@@ -90,11 +90,31 @@
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1635484769474941"
      crossorigin="anonymous"></script>
      
-     
+     <script type="application/javascript" src="https://syndication.exdynsrv.com/splash.php?idzone=4499254"></script>
      
      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1635484769474941"
      crossorigin="anonymous"></script>   
   
- 
+     <div id="my-video"></div>
+     <script type="application/javascript">
+         jwplayer("my-video").setup({
+             /**** ADVERTISING SECTION STARTS HERE ****/
+             advertising: {
+                 client: "vast",
+                 schedule: {
+                     "myAds": {
+                         "offset": "pre",
+                         "tag" : "https://syndication.exdynsrv.com/splash.php?idzone=4499342"
+                     }
+                 }
+             },
+             /**** ADVERTISING SECTION ENDS HERE ****/
+             file: "http://example.com/main_video.mp4",
+             width: "580",
+             height: "370"
+         });
+     </script>
+     
+     
 </body>
 </html>
