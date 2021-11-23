@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <title>Vaibh@v Blogg</title>
-  <meta name="description" content="HTML Progressive Web App made with zUIx.js">
+  <meta name="description" content="HTML Progressive Web App made by Vaibhav Madaan">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -115,6 +115,30 @@
          });
      </script>
      
+     <div id="my-video"></div>
+     <script type="application/javascript">
+         jwplayer("my-video").setup({
+             /**** ADVERTISING SECTION STARTS HERE ****/
+             advertising: {
+                 client: "vast",
+                 schedule: {
+                     "myAds": {
+                         "offset": "pre",
+                         "tag" : "https://syndication.exdynsrv.com/splash.php?idzone=4499342"
+                     }
+                 }
+             },
+             /**** ADVERTISING SECTION ENDS HERE ****/
+             file: "http://example.com/main_video.mp4",
+             width: "580",
+             height: "370"
+         });
+     </script>
      
+
+     <script type="application/javascript" src="https://syndication.exdynsrv.com/splash.php?idzone=4499760&capping=0"></script>
+     
+     <iframe src="//a.exdynsrv.com/iframe.php?idzone=4505058&size=300x250" width="300" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>    
+
 </body>
 </html>
