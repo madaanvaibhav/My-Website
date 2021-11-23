@@ -53,6 +53,7 @@
   <script async custom-element="amp-auto-ads"
   src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
 </script>
+
 </head>
 <!-- load the 'scroll_helper' controller on the body -->
 <body data-ui-load="@lib/controllers/scroll_helper" data-ui-options="options.pageScroll" data-ui-lazyload="scroll">
@@ -61,6 +62,7 @@
 <header data-ui-include="layout/header"
         data-ui-field="header-bar"></header>
 
+        
   
 <main data-ui-field="pages">
 
@@ -77,9 +79,50 @@
   <!-- ABOUT -->
   <section data-ui-include="pages/about" layout="column top-center"></section>
   
+  
 
 </main>
 
+<link rel="stylesheet" href="https://cdn.fluidplayer.com/v2/current/fluidplayer.min.css" type="text/css">
+<script src="https://cdn.fluidplayer.com/v2/current/fluidplayer.min.js"></script>
+
+<video id="my-video" controls="" style="width: 640px; height: 360px;">
+    <source src="main_video.mp4" type="video/mp4">
+</video>
+
+<script type="application/javascript">
+    var testVideo = fluidPlayer(
+        "my-video",
+        {
+            vastOptions: {
+                "adList": [
+                    {
+                        "roll": "preRoll",
+                        "vastTag": "https://syndication.exdynsrv.com/splash.php?idzone=4499342"
+                    },
+                    {
+                        "roll": "midRoll",
+                        "vastTag": "https://syndication.exdynsrv.com/splash.php?idzone=4499342",
+                        "timer": 8
+                    },
+                    {
+                        "roll": "midRoll",
+                        "vastTag": "https://syndication.exdynsrv.com/splash.php?idzone=4499342",
+                        "timer": 10
+                    },
+                    {
+                        "roll": "postRoll",
+                        "vastTag": "https://syndication.exdynsrv.com/splash.php?idzone=4499342"
+                    }
+            ]
+        }
+}
+    );
+</script>
+<script type="application/javascript" src="https://syndication.exdynsrv.com/splash.php?idzone=4499760&capping=0"></script>
+<script type="application/javascript" data-idzone="4505074" src="https://a.exdynsrv.com/nativeads-v2.js" ></script>
+
+<script type="application/javascript" data-idzone="4505076"  data-ad_frequency_count="1"  data-ad_frequency_period="12"  data-type="desktop" data-browser_settings="1" data-ad_trigger_method="3" src="https://a.exdynsrv.com/fp-interstitial.js"></script>
 
 <!-- The footer with toolbar buttons -->
 <footer data-ui-include="layout/footer"
